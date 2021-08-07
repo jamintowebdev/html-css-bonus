@@ -4,13 +4,39 @@ body {
   background-color: cadetblue;
 }
 
-h1 {
-    background-color: antiquewhite;
-    width: 1340px;
-    height: 100%;
-    padding: 20px 0;
-    border: 5px solid salmon;
-    border-radius: 30px;
+header {
+  background-color: antiquewhite;
+  width: 1340px;
+  height: 100%;
+  padding: 20px 0;
+  border: 5px solid salmon;
+  border-radius: 30px;
 
-    text-align: center;
+  text-align: center;
+}
+
+article {
+  background-color: rgb(170, 224, 179);
+  width: 1340px;
+  height: 100%;
+  padding: 20px 0;
+  border: 5px solid rgb(4, 49, 17);
+  border-radius: 30px;
+
+  font-size: 20px;
+  text-align: center;
+
+  margin: 10px 0px;
+}
+
+section {
+  background-color: rgb(250, 1, 233);
+  width: 1340px;
+  height: 100%;
+  padding: 20px 0;
+  border: 5px solid rgb(7, 241, 27);
+  border-radius: 30px;
+
+  font-size: 30px;
+  text-align: center;
 }
