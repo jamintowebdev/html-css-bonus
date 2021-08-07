@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Absolute Position</title>
+
+    <style>
+        body {
+            border: 10px solid deepskyblue;
+        }
+
+        .container {
+            border: 7px solid yellow;
+            position: relative;
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }
+
+        #box-1 {
+            background-color: rgb(248, 101, 101);
+        }
+        #box-2 {
+            background-color: rgb(118, 116, 233);
+            position: absolute;
+            /* positive value go down and negative value go up */
+            /* top: -300px;
+            left: 500px; */
+            /* ************* */
+            /* left: 50px; */
+            /* top: 50px; */
+            top: 0px;
+            left: 30px;
+        }
+        #box-3 {
+            background-color: rgb(148, 248, 101);
+        }
+    </style>
+</head>
+<body>
+    <h1>We are exploring CSS Position: Relative and Absolute: One More Time</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, consectetur veniam similique tempora iste itaque adipisci voluptatibus perferendis velit iure maxime odit totam quasi voluptatum magnam alias explicabo expedita! Unde!</p>
+     
+    <!-- .container>.box#box-$*3>{BOX-$} -->
+    <div class="container">
+        <div class="box" id="box-1">BOX-1</div>
+        <div class="box" id="box-2">BOX-2</div>
+        <div class="box" id="box-3">BOX-3</div>
+    </div>
+    
+</body>
+</html>
